@@ -1,0 +1,25 @@
+{
+  "name": "custome_checkout",
+  "version": "1.0.0",
+  "private": true,
+  "description": "custome_Checkout",
+  "author": "Kamaluddin0302",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.11.0",
+    "gatsby": "^2.26.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "stripe": "^8.130.0"
+  }
+}

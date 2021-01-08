@@ -1,0 +1,27 @@
+{
+  "name": "stripe_checkout",
+  "version": "1.0.0",
+  "private": true,
+  "description": "stripe_checkout",
+  "author": "Kamaluddin0302",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@stripe/stripe-js": "^1.11.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "gatsby": "^2.26.1",
+    "gatsby-source-stripe": "^3.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "stripe": "^8.130.0"
+  }
+}
